@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Meu Aplicativo</string>
+    <string name="helloword">Olá Mundo</string>
+    <string name="welcome">Bem vindo</string>
+    <string name="pressed">Carregado</string>
+
+    <string name="notifications">Notificações</string>
+    <string name="preferences">Preferências</string>
+    <string name="myToast">Isso é um toast</string>
+    <string name="clubes">Escolha um time</string>
+</resources>

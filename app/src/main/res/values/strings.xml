@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">myApp</string>
+    <string name="welcome">Welcome</string>
+    <string name="helloword">Hello Word!!</string>
+    <string name="pressed">Pressed</string>
+
+    <string name="notifications">Notificatons</string>
+    <string name="preferences">Preferences</string>
+    <string name="dialog" translatable="false">Dialog</string>
+    <string name="toast" translatable="false">Toast</string>
+
+    <string name="myToast">This is a Toast</string>
+
+    <string name="clubes">Choose your club</string>
+    <string name="sporting" translatable="false">Sporting</string>
+    <string-array name="lista_clubes">
+        <item>Sporting</item>
+        <item>Porto</item>
+        <item>Benfica</item>
+    </string-array>
+</resources>

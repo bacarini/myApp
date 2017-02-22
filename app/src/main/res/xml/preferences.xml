@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="clube"
+        android:title="@string/clubes"
+        android:dialogTitle="@string/clubes"
+        android:entries="@array/lista_clubes"
+        android:entryValues="@array/lista_clubes"
+        android:defaultValue="@string/sporting" />
+</PreferenceScreen>
