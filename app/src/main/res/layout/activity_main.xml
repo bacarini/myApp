@@ -36,15 +36,6 @@
         android:textSize="20dp"/>
 
     <Button
-        android:text="Button"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/counter"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="31dp"
-        android:id="@+id/chamada" />
-
-    <Button
         android:text="Activity 2"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -54,28 +45,54 @@
         android:layout_alignParentEnd="true" />
 
     <Button
-        android:text="Add Cars"
+        android:text="Button"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="13dp"
-        android:id="@+id/addCars"
-        android:layout_below="@+id/next_page"
-        android:layout_centerHorizontal="true"
-        android:textColor="#FFFFFF"/>
+        android:id="@+id/chamada"
+        android:layout_below="@+id/counter"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_below="@+id/addCars"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="28dp"
-        android:background="#e1e1e1">
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="14dp"
+    android:background="#e1e1e1"
+    android:layout_below="@+id/swipeBtn"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
 
-        <TextView
-            android:text="TextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/scrollText" />
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollText" />
 
     </ScrollView>
+
+    <Button
+        android:text="Swipe"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/swipeBtn"
+        android:layout_below="@+id/getCars" />
+
+    <Button
+        android:text="Add Cars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addCars"
+        android:textColor="#FFFFFF"
+        android:layout_alignBaseline="@+id/getCars"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
+
+    <Button
+        android:text="Get Cars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/getCars"
+        android:layout_below="@+id/next_page"
+        android:layout_alignRight="@+id/counter"
+        android:layout_alignEnd="@+id/counter" />
 </RelativeLayout>

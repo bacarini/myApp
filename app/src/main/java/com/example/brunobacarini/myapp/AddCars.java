@@ -80,11 +80,11 @@ public class AddCars extends AppCompatActivity implements View.OnClickListener {
             else
                 ownerString = ownerTxt.getText().toString();
 
-            String text = ("Brand: " + brandTxt.getText().toString() +
-                    "\nModel: " + modelTxt.getText().toString() +
-                    "\nOwner: " + ownerString);
-
-            makeToast(text);
+            Database db = new Database(getApplicationContext());
+            db.addCar(brandTxt.getText().toString(),
+                    modelTxt.getText().toString(),ownerString );
+            db.close();
+            makeToast("Car added");
             brandTxt.setText("");
             modelTxt.setText("");
             ownerTxt.setText("");
